@@ -1,4 +1,4 @@
-# Terraform EC2 Instance with Key Pair and User Data
+# Mini Project: Terraform EC2 Instance with Key Pair and User Data
 
 ## Project Overview
 
@@ -205,7 +205,7 @@ Confirm by typing `yes` when prompted.
 
 This project provided hands-on experience with Terraform for provisioning AWS EC2 instances. You learned how to configure EC2 instances with key pairs, security groups, and user data, as well as how to automate the process of deploying infrastructure in AWS.
 
-Great job on completing your Terraform project! Now, let’s push it to your GitHub repository. Follow these steps:  
+## Now, let’s push it to your GitHub repository. Follow these steps:  
 
 ### **1️⃣ Initialize a Git Repository**
 Navigate to your project directory in the terminal and run:  
@@ -215,7 +215,6 @@ git init
 ```
 ### **2️⃣ Create a `.gitignore` File**  
 Before pushing, create a `.gitignore` file to exclude unnecessary files. Run:  
-
 ```sh
 touch .gitignore
 ```
@@ -241,15 +240,18 @@ git commit -m "Initial commit: Terraform EC2 Instance project"
 ### **4️⃣ Create a New GitHub Repository**
 1. Go to [GitHub](https://github.com) and log in.
 2. Click on **"New Repository"**.
-3. Name it (e.g., `terraform-ec2-instance`).
+3. Name it (e.g., `terraform-ec2-keypair`).
 4. **Do not** initialize with a README (since we already have files).
 5. Click **"Create repository"**.
+
+**Screenshot:** Create New Repository
+![Create New Repository](./Images/8.New_repository.png)
 
 ### **5️⃣ Link Your Local Repo to GitHub**
 Copy the repository URL from GitHub and run:  
 
 ```sh
-git remote add origin https://github.com/YOUR_USERNAME/terraform-ec2-instance.git
+git remote add origin https://github.com/Holuphilix/terraform-ec2-keypair.git
 ```
 
 ### **6️⃣ Push to GitHub**
@@ -262,5 +264,3 @@ git push -u origin main
 
 ### **7️⃣ Confirm on GitHub**
 Go to your GitHub repository and check if the files are there.
-
-🚀 **You're all set!** Now your Terraform project is on GitHub. 🎉 Let me know if you need any help!
